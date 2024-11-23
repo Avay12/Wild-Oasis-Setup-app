@@ -1,3 +1,9 @@
+import Link from "next/link";
 export default function Home() {
-  return <div>Hello</div>;
+  return (
+    <div>
+      <h1>The Wild Oasis. Welcome to paradise</h1>
+      <Link href="/cabins">Exploure luxury Cabins</Link>
+    </div>
+  );
 }
