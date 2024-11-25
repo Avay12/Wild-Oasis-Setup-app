@@ -1,5 +1,5 @@
 import CabinCard from "@/app/_components/CabinCard";
-import { cabin } from "@/app/_type/cabin";
+import { Cabin } from "@/app/_type/cabin";
 
 export const metadata = {
   title: "Cabins",
@@ -7,7 +7,7 @@ export const metadata = {
 
 function page() {
   // CHANGE
-  const cabins: Array<cabin> | [] = [];
+  const cabins: Array<Cabin> | [] = [];
 
   return (
     <div>
